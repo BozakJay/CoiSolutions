@@ -10,24 +10,30 @@ p {
   font-family: 'Titillium Web', sans-serif;
 }
 
-
 hr {
   position: relative;
+  bottom: 30px;
 }
 
 .logo {
   position: relative;
-  top: 5.5vh;
+  width: 150px;
+  height: 150px;
+  top: 20px;
 }
 
 .nav_link {
   position: relative;
-  left: 60vw;
-  margin-left: 5vw;
+  left: 850px;
+  margin-left: 80px;
+  bottom: 40px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .carousel_image {
-  width: 80vw;
-  height: 70vh;
+  width: 1500px;
+  height: 600px;
+  top: 20px
   position: relative;
 }
