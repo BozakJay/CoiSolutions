@@ -31,9 +31,14 @@ hr {
   font-weight: 700;
 }
 
-.carousel_image {
-  width: 1500px;
-  height: 600px;
-  top: 20px
+#indexCar {
+ overflow: hidden;
+}
+
+#indexCar figure {
   position: relative;
+  width: 1000%;
+  margin: 0;
+  left: 0;
+  animation: 20s indexCar infinite;
 }

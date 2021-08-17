@@ -6,10 +6,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
-    <script src="assets/scripts/index.js"></script>
+    <link rel="stylesheet" href="/assets/stylesheets/stylesheet.css">
+    <script src="/assets/scripts/index.js"></script>
   </head>
+<style>
+  #indexCar {
+    overflow: hidden;
+  }
 
+  #indexCar figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s indexCar infinite;
+  }
+
+  #indexCar figure img {
+    width: 20%;
+    float: left;
+  }
+
+  @keyframes indexCar {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    25% {
+      left: -100%;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+</style>
   <body>
 
     <a class="logo" href="index.html"><img src="assets/images/logo.png"></a>
@@ -17,20 +64,29 @@
     <div class="nav_bar_top">
       <nav class="link_holder">
         <ul>
-          <a class="nav_link" href="link1.html" title="Link 1">Link 1</a>
-          <a class="nav_link" href="link2.html" title="Link 2">Link 2</a>
-          <a class="nav_link" href="link3.html" title="Link 3">Link 3</a>
-          <a class="nav_link" href="link4.html" title="Link 4">Link 4</a>
+          <a class="nav_link" href="#" title="Link 1">Link 1</a>
+          <a class="nav_link" href="#" title="Link 2">Link 2</a>
+          <a class="nav_link" href="#" title="Link 3">Link 3</a>
+          <a class="nav_link" href="#" title="Link 4">Link 4</a>
         <ul>
       </nav>
     </div>
 
 <hr>
 
-    <div class="carousel">
-      <img class="carousel_image" src="assets/images/beignets 1.png">
-      <img class="carousel_image" src="assets/images/beignets 2.png">
-      <img class="carousel_image" src="assets/images/beignets 3.png">
+    <div id="indexCar">
+      <figure>
+        <img src="assets/images/beignets%201.png">
+        <img src="assets/images/beignets%202.png">
+        <img src="assets/images/beignets%203.png">
+        <img src="assets/images/beignets%204.png">
+        <img src="assets/images/beignets%205.png">
+        <img src="assets/images/beignets%206.png">
+        <img src="assets/images/beignets%207.png">
+        <img src="assets/images/beignets%208.png">
+        <img src="assets/images/beignets%209.png">
+        <img src="assets/images/beignets%201.png">
+      </figure>
     </div>
 
     <div class="Index_Main_Info">
