@@ -34,7 +34,7 @@ hr {
 }
 
 #indexCar {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #indexCar figure {
