@@ -11,69 +11,33 @@ p {
 }
 
 hr {
-  position: relative;
-  bottom: 30px;
+  border: none;
+  background-color: #777;
+  height: 5px;
+}
+
+li {
+  background-color: #ddd;
+
+  font-size: 18px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+li:hover {
+  background-color: #555;
 }
 
 .logo {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  top: 20px;
+  display: block;
+  text-align: center;
 }
 
-.nav_link {
-  position: relative;
-  left: 850px;
-  margin-left: 80px;
-  bottom: 40px;
-  font-size: 20px;
-  font-weight: 700;
-}
-
-#indexCar {
-  overflow: hidden;
-}
-
-#indexCar figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  animation: 20s indexCar infinite;
-}
-
-#indexCar figure img {
-  width: 20%;
-  float: left;
-}
-
-@keyframes indexCar {
-  0% {
-    left: 0;
-  }
-  20% {
-    left: 0;
-  }
-  25% {
-    left: -100%;
-  }
-  45% {
-    left: -100%;
-  }
-  50% {
-    left: -200%;
-  }
-  70% {
-    left: -200%;
-  }
-  75% {
-    left: -300%;
-  }
-  95% {
-    left: -300%;
-  }
-  100% {
-    left: -400%;
-  }
+.nav_bar_top {
+  text-align: center;
 }
