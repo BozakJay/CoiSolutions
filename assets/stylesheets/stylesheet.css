@@ -1,3 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -17,16 +22,8 @@ hr {
 }
 
 li {
-  background-color: #ddd;
-
-  font-size: 18px;
   display: inline-block;
-  margin-left: -2px;
-  margin-right: -2px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  background-color: #ddd;
 }
 
 li:hover {
@@ -39,5 +36,37 @@ li:hover {
 }
 
 .nav_bar_top {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.nav_bar_top ul{
+  padding: 0;
+  margin: 0;
   text-align: center;
+}
+
+.nav_link {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: -2px;
+  margin-right: -2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.home_carousel {
+  width: 98.9vw;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.carousel_image {
+  padding-left: 5px;
+  padding-right: 5px;
 }
