@@ -69,11 +69,15 @@ function checkVisibility(){
     if (isVisible(obj) == false){
       let currentpos = carousel_images.indexOf(obj);
       if (currentpos == 0){
-        console.log('to the left!');
+        carousel_images[carousel_images.length-1].after(obj);
+        carousel_images.push(carousel_images[0]);
+        carousel_images.splice(0, 1);
+        updateFocus(-1);
       }else if (currentpos == (carousel_images.length-1)) {
-        console.log('to the right!');
-        //console.log(obj);
-        //obj.after(carousel_images[0]);
+        carousel_images[0].before(obj);
+        carousel_images.unshift(carousel_images[carousel_images.length-1]);
+        carousel_images.splice(carousel_images.length-1, 1);
+        updateFocus(1);
       }
     }
   }
@@ -116,6 +120,7 @@ if (carousel_images.length !== 0){
   let tempel = carousel_images[0];
   tempel.addEventListener(transitionEnd, resetter, false);
 }
+
 function resetter(){
   for (let obj of carousel_images){
     obj.style.transitionDuration = '0s';
