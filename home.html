@@ -7,11 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="assets/stylesheets/carousel.css">
   </head>
 
   <body>
 
-    <a class="logo" href="#"><img src="assets/images/logo.png"></a>
+    <div class="logo_holder">
+      <a href="#"><img class="logo" src="assets/images/logo.png"></a>
+    </div>
 
     <hr>
 
@@ -28,7 +31,7 @@
 
       <h1 style="text-align:center;">home page... under construction</h1>
 
-      <div class="carousel">
+      <div class="carousel" id="carousel">
           <img class="carousel_image" src="assets/images/test image 1.png">
           <img class="carousel_image" src="assets/images/test image 2.png">
           <img class="carousel_image" src="assets/images/test image 3.png">
@@ -39,9 +42,14 @@
           <img class="carousel_image" src="assets/images/test image 8.png">
           <img class="carousel_image" src="assets/images/test image 9.png">
           <img class="carousel_image" src="assets/images/test image 10.png">
+          <input class="carousel_button_left" type="button" value="<" onclick="userChange(-1)">
+          <input class="carousel_button_right" type="button" value=">" onclick="userChange(1)">
+
       </div>
 
     </div>
+
+    <script src="assets/scripts/carousel.js"></script>
 
   </body>
 
