@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/stylesheets/stylesheet.css">
     <link rel="stylesheet" href="assets/stylesheets/carousel.css">
-    <script src="assets/scripts/email.js"></script>
   </head>
 
   <body>
@@ -24,15 +23,22 @@
         <ul>
           <li><a class="nav_link" href="home.html" title="">Home</a></li
           ><li><a class="nav_link" href="services.html" title="">Services</a></li
-          ><li><a class="nav_link" href="aboutus.html" title="">About Us</a></li
-          ><li><a class="nav_link" href="#" title="">Our Solutions</a></li
+          ><li><a class="nav_link" href="#" title="">About Us</a></li
+          ><li><a class="nav_link" href="oursolutions.html" title="">Our Solutions</a></li
           ><li><a class="nav_link" href="contactus.html" title="">Contact Us</a></li>
         <ul>
       </nav>
     </div>
 
-    <div class="Index_Main_Info">
-      <h1>our solutions page... under construction</h1>
+    <div class="home_main_info tester">
+      <div class="email-form">
+        <form method="post" name="myemailform" action="assets/scripts/email.php">
+          <input type="text" name="name" placeholder="your name">
+          <input type="text" name="email" placeholder="your email">
+          <textarea name="message" placeholder="your message"></textarea>
+          <input type="submit" value="Send Form">
+        </form>
+      </div>
     </div>
 
   </body>
@@ -40,7 +46,7 @@
   <footer>
     <div>123-456 Road Rd, Townsville, ZZ 12345, USA</div>
     <div>555-555-1234 | coisolutions@outlook.com</div>
-    <a href="contactus.html"><img src="assets/images/email symbol.png"></a>
+    <a href="#"><img src="assets/images/email symbol.png"></a>
   </footer>
 
 </html>

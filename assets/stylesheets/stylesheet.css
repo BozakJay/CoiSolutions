@@ -1,12 +1,43 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+footer {
+  height: 110px;
+  background-color: #105040;
+}
+
+footer div {
+  color: rgb(255,255,255);
+  font-size: 18px;
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  position: relative;
+  top: 5px;
+}
+
+footer img {
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 15px;
+}
+
+h1 {
+  color: #105040;
+}
+
+b {
+  color: #105040;
 }
 
 a {
   color: black;
   text-decoration: none;
-  font-family: 'Titillium Web', sans-serif;
 }
 
 p {
@@ -22,12 +53,34 @@ hr {
 }
 
 li {
+  list-style: none;
+  text-align: center;
+}
+
+textarea {
+  box-sizing: border-box;
+  position: relative;
+  width: 500px;
+  height: 230px;
+  resize: none;
+  right: 153px;
+}
+
+.no-padding {
+  padding:0;
+}
+
+.nav_bar_top li {
   display: inline-block;
   background-color: #118f70;
 }
 
-li:hover {
+.nav_bar_top li:hover {
   background-color: #105040;
+}
+
+.home_main_info {
+  text-align: center;
 }
 
 .logo_holder {
@@ -60,4 +113,20 @@ li:hover {
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
+}
+
+.center-text {
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+.email-form {
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  height: 431px;
+  width: 200px;
 }
